@@ -17,10 +17,31 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				// EditorConfig Support for Visual Studio Code
 				"EditorConfig.EditorConfig",
+				// Adds Mermaid diagram and flowchart support to VS Code's builtin markdown preview
+				"bierner.markdown-mermaid",
+				// Popular Visual Studio Code extensions for Python
 				"donjayamanne.python-extension-pack",
-				"eamodio.gitlens"
-			]
+				// Supercharge Git within VS Code — Visualize code authorship at a glance via Git blame annotations and CodeLens, seamlessly navigate and explore Git repositories, gain valuable insights...
+				"eamodio.gitlens",
+				// Popular extensions for C++ development in Visual Studio Code.
+				"ms-vscode.cpptools-extension-pack",
+				// AI-assisted development
+				"visualstudioexptteam.vscodeintellicode",
+				// All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
+				"yzhang.markdown-all-in-one"
+			],
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "zsh",
+				"zsh": {
+					"path": "/usr/bin/zsh"
+				},
+				"pwsh": {
+					"path": "pwsh",
+					"icon": "terminal-powershell"
+				}
+			}
 		}
 	},
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
