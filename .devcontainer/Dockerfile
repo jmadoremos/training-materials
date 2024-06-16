@@ -6,3 +6,7 @@ USER vscode
 
 # Update APT repository
 ENV DEBIAN_FRONTEND=noninteractive
+
+# Install Jupyter kernel
+RUN python -m pip install ipykernel && \
+    python -m ipykernel install --user

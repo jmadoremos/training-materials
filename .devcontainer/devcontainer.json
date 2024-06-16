@@ -25,8 +25,8 @@
         "donjayamanne.python-extension-pack",
         // Supercharge Git within VS Code — Visualize code authorship at a glance via Git blame annotations and CodeLens, seamlessly navigate and explore Git repositories, gain valuable insights...
         "eamodio.gitlens",
-				// Popular extensions for C++ development in Visual Studio Code.
-				"ms-vscode.cpptools-extension-pack",
+        // Jupyter notebook support, interactive programming and computing that supports Intellisense, debugging and more.
+        "ms-toolsai.jupyter",
         // AI-assisted development
         "visualstudioexptteam.vscodeintellicode",
         // All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
