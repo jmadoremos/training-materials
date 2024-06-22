@@ -1,6 +1,6 @@
 # Training Materials
 
-A set of training materials for various domains
+A set of training materials for various domains. These materials use [Jupyter Notebook](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) to present both information and executable code in a single document.
 
 **Table of Contents**
 
