@@ -4,8 +4,9 @@ A set of training materials for various domains. These materials use [Jupyter No
 
 **Table of Contents**
 
-- Cryptography
-  - [100: Caesar Cipher](src/cryptography/100/caesar-cipher.ipynb)
+- Information Security
+  - Cryptography
+    - [100: Caesar Cipher](src/information-security/cryptography/100/caesar-cipher.ipynb)
 
 ## How to Use with Google Collab
 
